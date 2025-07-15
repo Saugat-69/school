@@ -114,8 +114,8 @@ body {
 .hero-content {
     flex: 1;
     max-width: 600px;
-    color: var(--white);
-    z-index: 2;
+    color:  #ffffff;
+    /* z-index: 2; */
     position: relative;
     display: flex;
     flex-direction: column;
@@ -125,21 +125,21 @@ body {
 }
 
 .hero-title {
-    font-size: 3.5rem;
+    font-size: 50px;
     font-weight: 700;
-    margin-bottom: 1rem;
-    line-height: 1.2;
+    margin-bottom: 16px;
+    /* line-height: 1.2; */
 }
 
 .hero-subtitle {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-    opacity: 0.9;
+    font-size: 19px;
+    margin-bottom: 32px;
+    /* opacity: 1; */
 }
 
 .hero-buttons {
     display: flex;
-    gap: 1rem;
+    gap: 16px;
 }
 
 .btn {
@@ -150,31 +150,28 @@ body {
     text-decoration: none;
     cursor: pointer;
     transition: all 0.3s ease;
-    font-size: 1rem;
-    display: inline-block;
+    font-size: 16px;
+    /* display: inline-block; */
 }
 
 .btn-primary {
-    background: var(--light-blue);
-    color: var(--white);
+    background: #60a5fa;
+    color:  #ffffff;
 }   
 
 .btn-primary:hover {
-    background: var(--secondary-blue);
-    transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(59, 130, 246, 0.3);
+    background: #0073ff;
 }
 
 .btn-secondary {
     background: transparent;
-    color: var(--white);
-    border: 2px solid var(--white);
+    color:  #ffffff;
+    border: 2px solid  #ffffff;
 }
 
 .btn-secondary:hover {
-    background: var(--white);
-    color: var(--primary-blue);
-    transform: translateY(-2px);
+    background:  #ffffff;
+    color: blue;
 }
 
 .hero-image {
@@ -192,7 +189,7 @@ body {
     border-radius: 20px;
     padding: 2rem;
     text-align: center;
-    color: var(--white);
+    color:  #ffffff;
 }
 
 .floating-card i {
@@ -208,7 +205,8 @@ body {
 
 /* Section Styles */
 section {
-    padding: 80px 0;
+    /* padding: 80px 0; */
+    
 }
 
 .section-title {
